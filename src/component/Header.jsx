@@ -39,7 +39,7 @@ const Header = () => {
       `}
       >
         <Link
-        className="w-[8rem] m-3 max-md:w-[5rem] max-sm:w-[6rem] "
+        className="w-[5rem] m-3 max-md:w-[5rem] max-sm:w-[6rem] "
         to="/"
         >
           <img 
