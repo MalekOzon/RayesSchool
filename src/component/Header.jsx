@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom"
 import { navigation } from "../constant"
-import {closeIcon, hamburgerIcon, logo_mf} from "../assets/index"
+import {closeIcon, hamburgerIcon, logoFade} from "../assets/PhotoIndex"
 import { useState } from "react"
 import { HamburgerMenu } from "../design/Header";
 
@@ -28,30 +28,30 @@ const Header = () => {
   return (
     <div 
     className={`fixed top-0 left-0 w-full z-50
-    lg:backdrop-blur-sm 
-    bg-gradient-to-l from-[#d0c19a] to-[#dab454]
+    lg:backdrop-blur-sm  
+    bg-gradient-to-r from-[#3c8ce7] to-[#40cfdc]
     ${openNavigation ? `bg-none ` : ""}
     `}
     >
       <div
       className={`flex items-center px-5 
-      
       `}
       >
         <Link
         className="w-[5rem] m-3 max-md:w-[5rem] max-sm:w-[6rem] "
         to="/"
+        onClick={() => setOpenNavigation(false)}
         >
           <img 
-          src={logo_mf}
+          src={logoFade}
           alt="Logo"
           />
         </Link>
 
         <nav
-        className={`${openNavigation ? "flex" : "hidden"}
+        className={`${openNavigation ? "flex mt-4 max-sm:mt-6" : "hidden"}
         fixed top-[5rem] left-0 right-0 bottom-0 
-        lg:flex lg:static lg:mx-auto  `}
+        lg:flex lg:static lg:mx-auto max-lg:bg-white  `}
         >
           <div
             className="relative z-50 flex flex-col
@@ -63,8 +63,9 @@ const Header = () => {
               key={item.id}
               className={({isActive}) => isActive ?
               `${notActiveLink}
-              bg-[#009F6B] text-white border border-none
+              bg-[#2edfa4] text-white border border-none
                 rounded-full ` : notActiveLink}
+                onClick={toggleNavigation}
               >
                 {item.title}
               </NavLink>

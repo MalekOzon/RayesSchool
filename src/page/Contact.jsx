@@ -1,7 +1,54 @@
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      Contact Contact Contact Contact Contact 
+      </div>
   )
 }
 

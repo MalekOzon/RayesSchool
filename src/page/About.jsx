@@ -1,7 +1,42 @@
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+      about   about   about   about   about  
+    </div>
   )
 }
 

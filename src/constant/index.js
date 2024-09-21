@@ -1,3 +1,6 @@
+import {
+  imageSlider1 ,imageSlider2 ,imageSlider3
+} from "../assets/PhotoIndex"
 
 
 export const navigation = [
@@ -27,3 +30,21 @@ export const navigation = [
     url: "contact",
   }
 ];
+export const imageSlides =[
+  {
+    id: "1",
+    title: "picture1",
+    url: imageSlider1
+  },
+  {
+    id: "2",
+    title: "picture3",
+    url: imageSlider2
+  },
+  {
+    id: "3",
+    title: "picture3",
+    url: imageSlider3
+  }
+
+]
