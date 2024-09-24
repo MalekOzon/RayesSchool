@@ -7,7 +7,6 @@ export  const HamburgerMenu = () => {
           <img
             className="w-full h-full object-contain"
             src={ logo_mf }
-            
             alt="Background"
           />
         </div>

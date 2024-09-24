@@ -8,6 +8,11 @@ import closeIcon from "./closeIcon.svg"
 import imageSlider1 from "./imageSlider1.jpg"
 import imageSlider2 from "./imageSlider2.jpg"
 import imageSlider3 from "./imageSlider3.jpg"
+import card from "./card.jpeg"
+import teacher from "./teacher.svg"
+import reading from "./reading.svg"
+import bookAndLibrary from "./bookAndLibrary.svg"
+import certification from "./certification.svg"
 
 
 export {
@@ -20,6 +25,11 @@ export {
     imageSlider2,
     imageSlider3,
     rightArrow,
-    leftArrow
+    leftArrow,
+    card,
+    teacher,
+    certification,
+    bookAndLibrary,
+    reading
 }
 

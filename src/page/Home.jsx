@@ -1,3 +1,4 @@
+import Service from "../component/Service"
 import Slider from "../component/Slider"
 
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div
     >
       <Slider />
+      <Service />
     </div>
   )
 }

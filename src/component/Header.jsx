@@ -44,13 +44,14 @@ const Header = () => {
         >
           <img 
           src={logoFade}
+          width={70}
           alt="Logo"
           />
         </Link>
 
         <nav
         className={`${openNavigation ? "flex mt-4 max-sm:mt-6" : "hidden"}
-        fixed top-[5rem] left-0 right-0 bottom-0 
+        fixed top-[4rem] left-0 right-0 bottom-0 
         lg:flex lg:static lg:mx-auto max-lg:bg-white  `}
         >
           <div
@@ -63,7 +64,7 @@ const Header = () => {
               key={item.id}
               className={({isActive}) => isActive ?
               `${notActiveLink}
-              bg-[#2edfa4] text-white border border-none
+              bg-[#2e89df] text-white border border-none
                 rounded-full ` : notActiveLink}
                 onClick={toggleNavigation}
               >
@@ -81,12 +82,12 @@ const Header = () => {
             openNavigation ?
             <img
             src={closeIcon}
-            width={60}
+            width={40}
             />
             :
             <img
             src={hamburgerIcon}
-            width={35}
+            width={30}
             />
           }
         </button>
