@@ -9,7 +9,7 @@ import {
   playing, 
   reading, 
   readingWhite, 
-  Safety, 
+  safety, 
   teacher
 } from "../assets/PhotoIndex"
 
@@ -95,7 +95,7 @@ export const serviceInfo =[
 export const offersInfo =[
   {
     id: "1",
-    icon: Safety,
+    icon: safety,
     title: "أولوية الأمان",
     text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
   },

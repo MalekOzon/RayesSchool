@@ -16,7 +16,7 @@ import certification from "./certification.svg"
 import playing from "./playing.svg"
 import education from "./education.svg"
 import creative from "./creative.svg"
-import Safety from "./Safety.svg"
+import safety from "./safety.svg"
 import certificationWhite from "./certificationWhite.svg"
 import readingWhite from "./readingWhite.svg"
 
@@ -38,7 +38,7 @@ export {
     certification,
     bookAndLibrary,
     reading,
-    Safety,
+    safety,
     playing,
     creative,
     education,
