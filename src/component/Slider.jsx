@@ -1,6 +1,7 @@
 import { useState } from "react"
-import { leftArrow , rightArrow } from "../assets/PhotoIndex"
+import { card, leftArrow , rightArrow } from "../assets/PhotoIndex"
 import { imageSlides } from "../constant/index" 
+import logo from "../assets/logo.png"
 
 // لسا بدا تعديل 
 
@@ -22,32 +23,53 @@ const Slider = () => {
 
   return (
     <div
-    className="relative w-full flex justify-center"
+    className={`relative w-full flex justify-center
+    `}
     >
       <div 
-      className="h-full  "
+      className=" "
       >
         {
           imageSlides.map((item , index) => (
             <div
             key={item.id}
-            className={` w-full relative
+            className={` w-full relative 
               ${index === current ? `` : `` }`}
             >
-              {/* {
+              {
                 index === current && (
                 <span
-                className="absolute 
-                top-[50%] right-[30%] z-10 flex justify-center 
-                text-4xl text-black font-sans
-                font-extrabold p-5  bg-slate-200
+                className="absolute  
+                top-[20%] right-[26%] z-10 
+                text-4xl text-[#48abcf] font-sans
+                rounded-[4.125rem]
+                font-extrabold p-5  
+                flex justify-center
+
+                max-[321px]:text-6xl
+                max-[426px]:w-[15rem]
+                max-[426px]:h-[15rem]
+                max-[426px]:text-6xl
+                max-[426px]:top-[20%]
+                max-[426px]:right-[28%]
+                
+                sm:text-4xl
+                sm:bg-slate-100
+                sm:w-[17rem]
+                sm:top-[10%]
+                sm:right-[40%]
+                
+                
                 "
                 >
                   {item.caption}
-                </span>)} */}
+                </span>)}
               {index === current && (
               <img 
-                className="w-full opacity-90"
+                className="w-full opacity-90
+                h-screen object-cover filter
+                max-[426px]:blur
+                "
                 src={item.url} 
                 alt={item.title} 
               /> )}

@@ -1,3 +1,4 @@
+import Offers from "../component/Offers"
 import Service from "../component/Service"
 import Slider from "../component/Slider"
 
@@ -8,6 +9,7 @@ const Home = () => {
     >
       <Slider />
       <Service />
+      <Offers />
     </div>
   )
 }

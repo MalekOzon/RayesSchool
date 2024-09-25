@@ -4,16 +4,18 @@ const Service = () => {
   return (
     <div
         className={`
-          flex items-center w-full
-          max-lg:flex-col 
+          flex items-center w-full 
+          max-lg:flex-col lg:h-[400px]
+          xl:h-[320px]
           `}
     >
     {
       serviceInfo.map((item) => (
         <div 
         key={item.id}
-        className={`relative h-[345px] w-full
+        className={`relative h-full w-full pb-[5rem]
           p-5 ${item.color} text-white flex justify-center
+          md:pb-24
           `}
         >
           <div 
@@ -22,10 +24,12 @@ const Service = () => {
               bg-white rounded-full
               flex justify-center items-center
               absolute top-[-4rem]
-              max-sm:w-[6rem]
-              max-sm:h-[6rem]
-              max-sm:top-[-3rem]
-              
+              max-sm:w-[5rem]
+              max-sm:h-[5rem]
+              max-sm:top-[-2.5rem]
+              md:w-[6rem]
+              md:h-[6rem]
+              md:top-[-3rem]
               `}
           >
           <img 
@@ -36,13 +40,10 @@ const Service = () => {
           />
           </div>
           <div
-          className="
-          
-          "
           >
             <h1
             className="
-            pt-10 text-4xl font-bold font-serif flex
+            pt-10 text-3xl font-bold font-serif flex
             justify-center
             sm:pt-16
             "
@@ -54,7 +55,6 @@ const Service = () => {
             pt-8 text-2xl mx-8
             font-bold font-serif flex
             justify-center items-center
-            
             "
             > {item.text} </p>
           </div>

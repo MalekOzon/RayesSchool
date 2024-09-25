@@ -1,9 +1,15 @@
 import {
   bookAndLibrary,
-  card,
   certification,
+  certificationWhite,
+  creative,
+  education,
   imageSlider1 ,imageSlider2, 
+  imageSlider3, 
+  playing, 
   reading, 
+  readingWhite, 
+  Safety, 
   teacher
 } from "../assets/PhotoIndex"
 
@@ -45,13 +51,13 @@ export const imageSlides =[
   {
     id: "2",
     title: "picture2",
-    url: imageSlider1,
+    url: imageSlider2,
     caption: "اولادك امانة لدينا"
   },
   {
     id: "3",
     title: "picture3",
-    url: imageSlider1,
+    url: imageSlider3,
     caption: "نهتم بمستقبل طفلك"
   }
 ]
@@ -84,4 +90,43 @@ export const serviceInfo =[
     icon: certification,
     color: "bg-[#8CC152]"
   }
+]
+
+export const offersInfo =[
+  {
+    id: "1",
+    icon: Safety,
+    title: "أولوية الأمان",
+    text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
+  },
+  {
+    id: "2",
+    icon: readingWhite,
+    title: "صفوف نظامية",
+    text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
+  },
+  {
+    id: "3",
+    icon: certificationWhite,
+    title: "أساتذة معتمدون",
+    text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
+  },
+  {
+    id: "4",
+    icon: education,
+    title: "طلاب جيدين",
+    text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
+  },
+  {
+    id: "5",
+    icon: creative,
+    title: "دروس تفاعلية",
+    text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
+  },
+  {
+    id: "6",
+    icon: playing,
+    title: "نشاطات رياضية",
+    text: "فقط مجرد نص ما باللغة العربية  فقط مجرد نص ما باللغة العربية"
+  },
 ]
