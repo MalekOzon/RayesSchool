@@ -4,11 +4,47 @@ import { offersInfo } from "../constant"
 const Offers = () => {
   return (
     <div
-    className="flex max-lg:flex-col-reverse"
+    className="flex max-lg:flex-col"
     >
       <div
       className="
-        lg:w-[50%]  bg-[#b6aaaa43] px-5 max-lg:my-20
+      lg:w-[50%] px-5 
+      "
+      >
+        <h1
+        className="text-4xl font-bold py-8"
+        >
+          أهلا بكم في مدرسة ريّس الرشيدي
+        </h1>
+        <p
+        className="pb-4 text-[#7F7F7F] text-2xl "
+        >
+          في طريقها، صادفت نسخة من النص.
+          كانت النسخة تحذر النص الصغير
+          الأعمى من أنه من حيث جاء
+          ، سيتم إعادة كتابته ألف مرة
+          وكل ما تبقى من أصله سيكون الكلمة.
+        </p>
+        <p
+        className="mb-12 text-[#7F7F7F] text-2xl "
+        >
+          في طريقها، صادفت نسخة من النص.
+          كانت النسخة تحذر النص الصغير
+          الأعمى من أنه من حيث جاء
+          ، سيتم إعادة كتابته ألف مرة
+          وكل ما تبقى من أصله سيكون الكلمة.
+        </p>
+        <Link
+        to="/about"
+        className=" p-3 m-9 bg-[#FDA638] text-white 
+        rounded-full text-lg "
+        >
+          اضغط للمزيد
+        </Link>
+      </div>
+      <div
+      className="
+        lg:w-[50%]  bg-[#b6aaaa43] px-5 
       "
       >
         <h1
@@ -60,43 +96,7 @@ const Offers = () => {
           }
         </div>
       </div>
- {/* sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */}
-      <div
-      className="
-      lg:w-[50%] px-5 
-      "
-      >
-        <h1
-        className="text-4xl font-bold py-8"
-        >
-          أهلا بكم في مدرسة ريّس الرشيدي
-        </h1>
-        <p
-        className="pb-4 text-[#7F7F7F] text-2xl "
-        >
-          في طريقها، صادفت نسخة من النص.
-          كانت النسخة تحذر النص الصغير
-          الأعمى من أنه من حيث جاء
-          ، سيتم إعادة كتابته ألف مرة
-          وكل ما تبقى من أصله سيكون الكلمة.
-        </p>
-        <p
-        className="mb-12 text-[#7F7F7F] text-2xl "
-        >
-          في طريقها، صادفت نسخة من النص.
-          كانت النسخة تحذر النص الصغير
-          الأعمى من أنه من حيث جاء
-          ، سيتم إعادة كتابته ألف مرة
-          وكل ما تبقى من أصله سيكون الكلمة.
-        </p>
-        <Link
-        to="/about"
-        className=" p-3 m-9 bg-[#FDA638] text-white 
-        rounded-full text-lg "
-        >
-          اضغط للمزيد
-        </Link>
-      </div>
+      
       
     </div>
     
