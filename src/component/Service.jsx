@@ -54,7 +54,7 @@ const Service = () => {
             className="
             pt-8 text-2xl mx-8
             font-bold font-serif flex
-            justify-center items-center
+            justify-center items-center 
             "
             > {item.text} </p>
           </div>

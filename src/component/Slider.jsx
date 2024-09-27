@@ -45,21 +45,17 @@ const Slider = () => {
                 rounded-[4.125rem]
                 font-extrabold p-5  
                 flex justify-center
-
                 max-[321px]:text-6xl
-                max-[426px]:w-[15rem]
+                max-[426px]:w-[14rem]
                 max-[426px]:h-[15rem]
                 max-[426px]:text-6xl
                 max-[426px]:top-[20%]
                 max-[426px]:right-[28%]
-                
                 sm:text-4xl
                 sm:bg-slate-100
                 sm:w-[17rem]
                 sm:top-[10%]
                 sm:right-[40%]
-                
-                
                 "
                 >
                   {item.caption}

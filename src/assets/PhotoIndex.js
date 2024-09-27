@@ -19,10 +19,13 @@ import creative from "./creative.svg"
 import safety from "./safety.svg"
 import certificationWhite from "./certificationWhite.svg"
 import readingWhite from "./readingWhite.svg"
-
+import lesson from "./lesson.jpeg"
+import pencil from "./pencil.jpeg"
 
 
 export {
+    lesson,
+    pencil,
     logo,
     logo_mf,
     hamburgerIcon,

@@ -2,13 +2,15 @@
 const HideImage = () => {
   return (
     <div
-      className='w-full h-[400px]
+      className='
+      w-full h-[400px]
       bg-center bg-cover bg-fixed
-      flex justify-center items-center
-      max-sm:h-[450px]
+      flex justify-center items-center filter
+      max-sm:h-[450px] 
       bg-[url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg")]
       '
     >
+
       <div
       className="flex w-[80%] 
       justify-center items-center 
@@ -17,9 +19,10 @@ const HideImage = () => {
       >
         <div
         className=" text-white
-        
         "
         >
+          {/* max-sm:backdrop-filter 
+        max-sm:backdrop-blur-2xl */}
           <h1
           className="font-bold text-5xl mb-5
           max-sm:text-3xl 

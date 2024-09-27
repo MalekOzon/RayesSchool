@@ -60,14 +60,13 @@ const Offers = () => {
           وكل ما تبقى من أصله سيكون الكلمة.
         </p>
         <div
-        className="grid grid-cols-2 
-        max-sm:grid-cols-1  "
+        className="grid grid-cols-2 max-sm:grid-cols-1  "
         >
           {
             offersInfo.map((item) => (
               <div
               key={item.id}
-              className="flex py-10  ml-4 max-sm:py-6"
+              className="flex py-8  ml-4 max-sm:py-6"
               >
                 <div
                 className="m-3 bg-[#1EAAF1] rounded-full
