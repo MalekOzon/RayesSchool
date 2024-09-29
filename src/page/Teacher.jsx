@@ -1,59 +1,11 @@
-import React from 'react'
+import Slider from "../component/Slider"
+import TeacherComponent from "../component/TeacherComponent"
 
 const Teacher = () => {
   return (
     <div>
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
-      teacher teacher teacher teacher teacher 
+      <Slider />
+      <TeacherComponent />
     </div>
   )
 }

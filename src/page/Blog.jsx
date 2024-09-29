@@ -1,57 +1,11 @@
+import Activity from "../component/Activity"
+import Slider from "../component/Slider"
 
 const Blog = () => {
   return (
     <div>
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-      Blog Blog Blog Blog Blog Blog Blog 
-
+      <Slider /> 
+      <Activity />
     </div>
   )
 }

@@ -8,7 +8,7 @@ const Offers = () => {
     >
       <div
       className="
-      lg:w-[50%] px-5 
+      lg:w-[50%] px-5 mb-6
       "
       >
         <h1
@@ -37,7 +37,7 @@ const Offers = () => {
         <Link
         to="/about"
         className=" p-3 m-9 bg-[#FDA638] text-white 
-        rounded-full text-lg "
+        rounded-full text-lg mb-11"
         >
           اضغط للمزيد
         </Link>

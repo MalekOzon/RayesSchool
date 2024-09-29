@@ -1,12 +1,15 @@
+import Activity from "../component/Activity"
 import Courses from "../component/Courses"
 import Heading from "../component/Heading"
 import HideImage from "../component/HideImage"
 import Offers from "../component/Offers"
 import Overview from "../component/Overview"
+import Pricing from "../component/Pricing"
+import Quote from "../component/Quote"
 import Service from "../component/Service"
 import Slider from "../component/Slider"
-import Teacher from "../component/Teacher"
-import Counter from "./Counter"
+import TeacherComponent from "../component/TeacherComponent"
+import Counter from "../component/Counter"
 
 
 const Home = () => {
@@ -18,7 +21,7 @@ const Home = () => {
       يعيشون منفصلين. يتدفق نهر صغير يسمى 
       دودن بجوار مكان
       `
-  return (
+  return ( 
     <div
     >
       <Slider />
@@ -26,11 +29,18 @@ const Home = () => {
       <Offers />
       <HideImage />
       <Heading first="مدرسون" second="جيدون" paragraph={pra1}  />
-      <Teacher />
+      <TeacherComponent />
       <Heading first="دروسنا" second="المميزة" paragraph={pra1} />
       <Courses />
       <Counter paragraph={pra1}/>
+      <Heading first="ماذا يقول" second="الاباء حولنا" />
       <Overview />
+      <Quote />
+      <Heading first="أسعار" second="الصفوف" paragraph={pra1} />
+      <Pricing />
+      <Heading first="نشاطاتنا" second="الرائعة" paragraph={pra1} />
+      <Activity />
+      <Counter paragraph={pra1}/>
     </div>
   )
 }

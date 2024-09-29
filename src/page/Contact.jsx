@@ -1,53 +1,9 @@
+import Slider from "../component/Slider"
 
 const Contact = () => {
   return (
     <div>
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
-      Contact Contact Contact Contact Contact 
+      <Slider />
       </div>
   )
 }

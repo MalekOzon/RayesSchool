@@ -35,6 +35,7 @@ const Header = () => {
     >
       <div
       className={`flex items-center px-5 
+        bg-gradient-to-r from-[#3c8ce7] to-[#40cfdc]
       `}
       >
         <Link
@@ -62,7 +63,8 @@ const Header = () => {
               <NavLink
               to={item.url}
               key={item.id}
-              className={({isActive}) => isActive ?
+              className={
+                ({isActive}) => isActive ?
               `${notActiveLink}
               bg-[#2e89df] text-white border border-none
                 rounded-full ` : notActiveLink}

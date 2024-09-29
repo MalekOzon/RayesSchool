@@ -49,7 +49,7 @@ const HideImage = () => {
         </div>
         <button
         className="rounded-full bg-orange-400 
-        p-5 w-[330px]  flex justify-center items-center text-xl
+        p-5 mb-3 w-[330px]  flex justify-center items-center text-xl
         font-bold
         lg:w-[250px]
         xl:w-[200px]

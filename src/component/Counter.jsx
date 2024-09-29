@@ -1,4 +1,4 @@
-import Heading from "../component/Heading"
+import Heading from "./Heading"
 import { counterInfo } from "../constant"
 
 const Counter = ({paragraph}) => {
