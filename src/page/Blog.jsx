@@ -1,10 +1,10 @@
 import Activity from "../component/Activity"
-import Slider from "../component/Slider"
+import ImageHeader from "../component/ImageHeader"
 
 const Blog = () => {
   return (
     <div>
-      <Slider /> 
+      <ImageHeader paragraph=" نشاطاتنا"/>
       <Activity />
     </div>
   )

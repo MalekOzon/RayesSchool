@@ -1,10 +1,10 @@
-import Slider from "../component/Slider"
+import ImageHeader from "../component/ImageHeader"
 import TeacherComponent from "../component/TeacherComponent"
 
 const Teacher = () => {
   return (
     <div>
-      <Slider />
+      <ImageHeader paragraph=" الأساتذة"/>
       <TeacherComponent />
     </div>
   )

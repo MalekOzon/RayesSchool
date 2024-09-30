@@ -15,8 +15,6 @@ const Header = () => {
     }
   };
 
-  console.log(openNavigation)
-
   const notActiveLink=`
         px-6 py-4 max-md:py-5 text-xl
         lg:text-lg lg:font-semibold

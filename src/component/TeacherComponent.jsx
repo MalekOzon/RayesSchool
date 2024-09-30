@@ -1,7 +1,12 @@
 import { teacherInfo } from "../constant"
-
+import { useLocation } from 'react-router-dom';
 
 const Teacher = () => {
+
+    const location = useLocation();
+    const currentPathname = location.pathname;
+
+    console.log(currentPathname.includes("teacher"))
   return (
 
     <div
@@ -13,10 +18,10 @@ const Teacher = () => {
     >
       {
         teacherInfo.map((item) => {
-          if (item.id <= 4 ) {
+          if ( item.id < (currentPathname.includes("teacher") ? 10 : 5 ) ) {
             return (
               <div
-                key={item.name}
+                key={item.id}
                 className="relative
               m-3 mt-0 p-4  rounded-3xl
               hover:shadow-2xl

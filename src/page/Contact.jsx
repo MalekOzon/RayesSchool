@@ -1,9 +1,9 @@
-import Slider from "../component/Slider"
+import ImageHeader from "../component/ImageHeader"
 
 const Contact = () => {
   return (
     <div>
-      <Slider />
+      <ImageHeader paragraph=" تواصل معنا"/>
       </div>
   )
 }

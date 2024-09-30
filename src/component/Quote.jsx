@@ -41,6 +41,9 @@ const Quote = () => {
           <input 
           className="m-2 p-1" type="tel"
           name="phone" placeholder=" 987 654 321" />
+          <input 
+          className="m-2 p-1" type="text"
+          name="phone" placeholder=" الصف" />
           <br />
           <input 
           className="m-2 mb-4 p-2 w-full h-[4rem]" type="text"

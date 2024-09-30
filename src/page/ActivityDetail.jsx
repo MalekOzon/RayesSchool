@@ -1,13 +1,13 @@
 import { useParams } from 'react-router-dom'
-import Heading from '../component/Heading'
+import ImageHeader from '../component/ImageHeader';
 
 const ActivityDetail = () => {
 const para = useParams();
 console.log(para)
   return (
     <div>
-
-<Heading first="مدرسون" second="جيدون" paragraph="kas;jk;fashjioahsoighaspgoashoghsaohgoiaaaasahoaishgopashoighasiohga gosah dgoihsagopsahgoishdaioghagoisahghsahiogsaiohgasoihsgadoihagsdiohgasdohigdsahoigasdhoigadshogdashoighhhgahioggds"  />
+      <ImageHeader paragraph={`هنا النشاط رقم ${para.id}`}/>
+      <h1>هنا النشاط رقم {para.id}</h1>
 </div>
   )
 }

@@ -5,7 +5,7 @@ const HideImage = () => {
       className='
       w-full h-[400px]
       bg-center bg-cover bg-fixed
-      flex justify-center items-center filter
+      flex justify-center items-center 
       max-sm:h-[450px] 
       bg-[url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg")]
       '

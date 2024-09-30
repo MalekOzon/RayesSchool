@@ -40,7 +40,6 @@ const Home = () => {
       <Pricing />
       <Heading first="نشاطاتنا" second="الرائعة" paragraph={pra1} />
       <Activity />
-      <Counter paragraph={pra1}/>
     </div>
   )
 }

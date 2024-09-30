@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* the shadows for the header pic  */
+
+.HeaderPic:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #6b7e99;
+  background: -moz-linear-gradient(26deg, #202125 0%, rgba(32,33,37,.6) 40%, rgba(32,33,37,0) 60%, rgba(32,33,37,0) 80%, #202125 100%);
+  background: -webkit-linear-gradient(26deg, #202125 0%, rgba(32,33,37,.6) 40%, rgba(32,33,37,0) 60%, rgba(32,33,37,0) 80%, #202125 100%);
+  background: linear-gradient(26deg, #525e90 0%, rgba(78, 96, 154, 0.6) 40%, rgba(59, 138, 195, 0.458) 60%, rgba(81, 122, 183, 0.123) 80%, #627ca0 100%);
+}
+.HeaderPic:after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #202125;
+  background: -moz-linear-gradient(45deg, #202125 0, rgba(32,33,37,0) 25%, #202125 120%);
+  background: -webkit-linear-gradient(45deg, #202125 0, rgba(32,33,37,0) 25%, #202125 120%);
+  background: linear-gradient(45deg, #202125 0, rgba(32,33,37,0) 25%, #202125 120%);
+  z-index: 2;
+}
