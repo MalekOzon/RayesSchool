@@ -7,6 +7,7 @@ import {
   imageSlider1 ,imageSlider2, 
   imageSlider3, 
   lesson, 
+  logoFade, 
   playing, 
   reading, 
   readingWhite, 
@@ -355,4 +356,92 @@ export const activity =[
     title: "اكتسب مهارة لتطوير ذاكرة ولدك ",
     text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
   },
+]
+export const parents =[
+  {
+    id: 1,
+    img: imageSlider1,
+    name: "غزوان اوزون",
+    text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
+    who: "الوالد"
+  },
+  {
+    id: 2,
+    img: imageSlider3,
+    name: "رضوان اوزون",
+    text: "انا والد الطفل خضر اوزون وهوي ما عم يدرس منيح",
+    who: "الوالد"
+  },
+  {
+    id: 3,
+    img: imageSlider2,
+    name: "حمدان اوزون",
+    text: "انا ابو رشيد المعلم وتاج راس الكل هوني ",
+    who: "الوالد"
+  },
+  {
+    id: 4,
+    img: imageSlider1,
+    name: "مروان اوزون",
+    text: "انا ام الرشد المديرة العامة للمدرسى والكل بالكل يا شباب ",
+    who: "الوالد"
+  },
+  {
+    id: 5,
+    img: lesson,
+    name: "خلدان اوزون",
+    text: "انا اب انس وشخص مجرد شغلتو يبيع الجبس ههههه",
+    who: "الوالد"
+  },
+]
+export const icons =[
+  {
+    id: 1,
+    text: "موقعنا قرب نادي الملاعب تبع الطابي",
+    img:readingWhite
+  },
+  {
+    id: 2,
+    text: "+963 987 654 321",
+    img:readingWhite
+  },
+  {
+    id: 3,
+    text: "malekozon123@gmail.com",
+    img:readingWhite
+  }
+]
+export const footerLink =[
+  {
+    id: "0",
+    title: "الرئيسية",
+    url: ".",
+  },
+  {
+    id: "1",
+    title: "عن المدرسة",
+    url: "about",
+  },
+  {
+    id: "2",
+    title: "المدرسون",
+    url: "teacher",
+  },
+  {
+    id: "3",
+    title: "المقالات",
+    url: "blog",
+  },
+  {
+    id: "4",
+    title: "تواصل معنا",
+    url: "contact",
+  }
+]
+export const social=[
+  {
+    id:1,
+    icon: logoFade,
+    url: "https://www.facebook.com/Rayesalrashidi/"
+  }
 ]

@@ -21,7 +21,7 @@ import certificationWhite from "./certificationWhite.svg"
 import readingWhite from "./readingWhite.svg"
 import lesson from "./lesson.jpeg"
 import pencil from "./pencil.jpeg"
-
+import quotes from "./quotes.svg"
 
 export {
     lesson,
@@ -46,6 +46,7 @@ export {
     creative,
     education,
     certificationWhite,
-    readingWhite
+    readingWhite,
+    quotes
 }
 
