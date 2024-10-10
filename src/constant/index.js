@@ -445,3 +445,41 @@ export const social=[
     url: "https://www.facebook.com/Rayesalrashidi/"
   }
 ]
+export const photos =[
+  {
+    id: 1,
+    url: lesson
+  },
+  {
+    id: 2,
+    url: imageSlider1
+  },
+  {
+    id: 3,
+    url: imageSlider2
+  },
+  {
+    id: 4,
+    url: lesson
+  },
+  {
+    id: 5,
+    url: lesson
+  },
+  {
+    id: 6,
+    url: lesson
+  },
+  {
+    id: 7,
+    url: lesson
+  },
+  {
+    id: 8,
+    url: lesson
+  },
+  {
+    id: 9,
+    url: lesson
+  }
+]
