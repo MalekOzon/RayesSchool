@@ -486,26 +486,26 @@ export const photos =[
   },
   {
     id: 4,
-    url: lesson
+    url: pic1
   },
   {
     id: 5,
-    url: lesson
+    url: pic9
   },
   {
     id: 6,
-    url: lesson
+    url: pic4
   },
   {
     id: 7,
-    url: lesson
+    url: pic6
   },
   {
     id: 8,
-    url: lesson
+    url: pic7
   },
   {
     id: 9,
-    url: lesson
+    url: pic10
   }
 ]

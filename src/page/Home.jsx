@@ -10,6 +10,7 @@ import Service from "../component/Service"
 import Slider from "../component/Slider"
 import TeacherComponent from "../component/TeacherComponent"
 import Counter from "../component/Counter"
+import Photo from "../component/Photo"
 
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
       <Pricing />
       <Heading first="نشاطاتنا" second="الرائعة" paragraph={pra1} />
       <Activity />
+      <Photo />
     </div>
   )
 }

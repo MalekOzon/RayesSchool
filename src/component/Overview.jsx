@@ -33,7 +33,7 @@ const Overview = () => {
 
   return (
     <div
-    className="w-full my-10 h-[25rem]
+    className="w-full my-10 h-[28rem]
     "
     >
       <div

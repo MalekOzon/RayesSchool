@@ -6,7 +6,6 @@ const Teacher = () => {
     const location = useLocation();
     const currentPathname = location.pathname;
 
-    console.log(currentPathname.includes("teacher"))
   return (
 
     <div
