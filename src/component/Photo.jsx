@@ -26,13 +26,13 @@ const Photo = () => {
     className="w-full  px-[5%] my-6"
     >
       <div
-      className={`w-full  grid grid-cols-3 gap-4 ${isOpen ? "filter blur-sm brightness-[0.5]" : "" }`}
+      className={`w-full  grid grid-cols-3 max-sm:grid-cols-1 gap-4 ${isOpen ? "filter blur-sm brightness-[0.5]" : "" }`}
       >
         {photos.map((item ) => {
           if ( item.id < 8 )  {
           return (
           <div
-          className="w-full bg-white  relative group  "
+          className="w-full bg-white  relative group max-sm:py-5 "
           key={item.id}
           >
             <div
@@ -55,7 +55,6 @@ const Photo = () => {
               
           </div>
           )}})}
-
       </div>
           <div
           className={` absolute top-96 h-screen right-0  w-full
@@ -66,7 +65,7 @@ const Photo = () => {
             className="flex justify-center items-center h-full  "
             >
               <img 
-              className="w-[55%] border-4 border-blue-500 rounded-lg shadow-orange-600"
+              className="w-[55%] border-4 border-blue-500 rounded-lg max-sm:w-full max-sm:h-[400px] "
               src={image}
               />
             </div>
@@ -78,7 +77,7 @@ const Photo = () => {
           onClick={handleIsClosed}
           >
             <img 
-            className="w-[100px]"
+            className="w-[100px] max-sm:w-[50px] text-white bg-white"
             src={closeIcon}
             />
           </button>

@@ -27,10 +27,13 @@ import pic2 from "./pic2.jpg"
 import pic4 from "./pic4.jpg"
 import pic6 from "./pic6.jpg"
 import pic7 from "./pic7.jpg"
+import pic8 from "./pic8.jpg"
+import pic9 from "./pic9.jpg"
+import pic10 from "./pic10.jpg"
 
 
 export {
-    pic1,pic2,pic4,pic6,pic7,
+    pic1,pic2,pic4,pic6,pic7,pic10,pic8,pic9,
     lesson,
     pencil,
     logo,

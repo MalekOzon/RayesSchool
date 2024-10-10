@@ -35,27 +35,18 @@ const Service = () => {
           <img 
             src={item.icon}
             width={40}
-            className="
-            w-[50%] h-[50%]"
+            className=" w-[50%] h-[50%]"
           />
           </div>
           <div
           >
             <h1
-            className="
-            pt-10 text-3xl font-bold font-serif flex
-            justify-center
-            sm:pt-16
-            "
+            className=" pt-10 text-3xl font-bold font-serif flex justify-center text-center sm:pt-16 "
             >
               {item.title}
             </h1>
             <p
-            className="
-            pt-8 text-2xl mx-8
-            font-bold font-serif flex
-            justify-center items-center 
-            "
+            className="pt-8 text-2xl mx-8 font-bold font-serif flex justify-center items-center  text-center"
             > {item.text} </p>
           </div>
         </div>

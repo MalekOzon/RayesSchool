@@ -23,8 +23,7 @@ const Slider = () => {
 
   return (
     <div
-    className={`relative w-full flex justify-center
-    `}
+    className={`relative w-full flex justify-center h-[90vh] sm:h-[88vh] `}
     >
       <div 
       className="w-full "
@@ -56,6 +55,7 @@ const Slider = () => {
                 sm:w-[17rem]
                 sm:top-[10%]
                 sm:right-[40%]
+                max-sm:hidden
                 "
                 >
                 {item.caption}
@@ -63,8 +63,7 @@ const Slider = () => {
               {index === current && (
               <img 
                 className="w-full opacity-90
-                h-screen object-cover filter
-                max-[426px]:blur
+                h-screen object-cover 
                 "
                 src={item.url} 
                 alt={item.title} 

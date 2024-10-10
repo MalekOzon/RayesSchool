@@ -52,12 +52,7 @@ const Offers = () => {
         >ماذا نوفر ؟</h1>
         <p
         className="pb-4 text-[#7F7F7F] text-2xl "
-        >
-          في طريقها، صادفت نسخة من النص.
-          كانت النسخة تحذر النص الصغير
-          الأعمى من أنه من حيث جاء
-          ، سيتم إعادة كتابته ألف مرة
-          وكل ما تبقى من أصله سيكون الكلمة.
+        >في مدرسة ريّس الرشيدي، نحن ملتزمون بتوفير بيئة تعليمية شاملة تدعم تطوير الطلاب من جميع الجوانب. نقدم مجموعة متنوعة من الخدمات والميزات لتلبية احتياجات كل طالب، ومنها:
         </p>
         <div
         className="grid grid-cols-2 max-sm:grid-cols-1  "
@@ -70,12 +65,12 @@ const Offers = () => {
               >
                 <div
                 className="m-3 bg-[#1EAAF1] rounded-full
-                w-[140px] h-[70px] flex justify-center
+                w-[190px] h-[70px] flex justify-center
                 "
                 >
                     <img 
                     src={item.icon}
-                    className="w-[70%]"
+                    className="w-[75%]"
                     />
                 </div>
                 <div>
