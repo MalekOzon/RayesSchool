@@ -8,6 +8,11 @@ import {
   imageSlider3, 
   lesson, 
   logoFade, 
+  pic1, 
+  pic2, 
+  pic4, 
+  pic6, 
+  pic7, 
   playing, 
   reading, 
   readingWhite, 
@@ -47,19 +52,31 @@ export const imageSlides =[
   {
     id: "1",
     title: "picture1",
-    url: imageSlider1,
+    url: pic1,
     caption: "علم اولادك معنا"
   },
   {
     id: "2",
     title: "picture2",
-    url: imageSlider2,
+    url: pic4,
     caption: "اولادك امانة لدينا"
   },
   {
     id: "3",
     title: "picture3",
-    url: imageSlider3,
+    url: pic7,
+    caption: "نهتم  "
+  },
+  {
+    id: "3",
+    title: "picture3",
+    url: pic6,
+    caption: " بمستقبل "
+  },
+  {
+    id: "3",
+    title: "picture3",
+    url: pic2,
     caption: "نهتم بمستقبل طفلك"
   }
 ]

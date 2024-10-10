@@ -27,7 +27,7 @@ const Slider = () => {
     `}
     >
       <div 
-      className=" "
+      className="w-full "
       >
         {
           imageSlides.map((item , index) => (
@@ -41,7 +41,7 @@ const Slider = () => {
                 <span
                 className="absolute  
                 top-[20%] right-[26%] z-10 
-                text-4xl text-[#48abcf] font-sans
+                text-4xl text-black font-sans
                 rounded-[4.125rem]
                 font-extrabold p-5  
                 flex justify-center
@@ -52,13 +52,13 @@ const Slider = () => {
                 max-[426px]:top-[20%]
                 max-[426px]:right-[28%]
                 sm:text-4xl
-                sm:bg-slate-100
+                sm:bg-[#bbd0e5a1]
                 sm:w-[17rem]
                 sm:top-[10%]
                 sm:right-[40%]
                 "
                 >
-                  {item.caption}
+                {item.caption}
                 </span>)}
               {index === current && (
               <img 
