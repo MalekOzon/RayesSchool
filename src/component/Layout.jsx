@@ -5,7 +5,10 @@ function Layout() {
     return (
         <div>
             <Header />
-            <main>
+            <main
+            className="pt-[90px] max-sm:pt-[90px]
+            "
+            >
                 <Outlet />
             </main>
             <Footer />
