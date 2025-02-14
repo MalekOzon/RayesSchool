@@ -12,14 +12,15 @@ const Pricing = () => {
       <div
       className="
       flex justify-center items-center mx-[7.5%]
-      h-full 
+      h-full w-[90%]
       max-lg:flex-col
       "
       >
         {price.map((item) => (
           <div
           className="
-          m-5 bg-[#FAFAFA] h-[90%]
+          m-5 bg-[#FAFAFA] w-[20%] h-[90%] 
+          max-lg:w-[80%]
           "
           key={item.id}
           >
@@ -53,7 +54,7 @@ const Pricing = () => {
             </div>
             <img 
             className="
-            w-full my-4
+            w-full my-4 h-[50%]
             "
             src={item.img}
             />

@@ -7,7 +7,7 @@ const HideImage = () => {
       bg-center bg-cover bg-fixed
       flex justify-center items-center 
       max-sm:h-[450px] 
-      bg-[url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg")]
+      bg-[url("https://www.americanlycetuffdnk.edu.pk/wp-content/uploads/2023/02/als-dnk.jpg")]
       '
     >
 

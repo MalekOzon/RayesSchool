@@ -56,37 +56,37 @@ export const imageSlides =[
     id: "1",
     title: "picture1",
     url: pic1,
-    caption: "علم اولادك معنا"
+    caption: "أولادك امانة لدينا"
   },
   {
     id: "2",
     title: "picture2",
     url: pic4,
-    caption: "اولادك امانة لدينا"
+    caption: "علم اولادك معنا"
   },
   {
     id: "3",
     title: "picture3",
     url: pic7,
-    caption: "نهتم  "
+    caption: "أولادك امانة لدينا"
   },
   {
     id: "3",
     title: "picture3",
     url: pic8,
-    caption: " بمستقبل "
+    caption: "علم اولادك معنا"
   },
   {
     id: "3",
     title: "picture3",
     url: pic9,
-    caption: "نهتم بمستقبل طفلك"
+    caption: "أولادك امانة لدينا"
   },
   {
     id: "3",
     title: "picture3",
     url: pic10,
-    caption: "نهتم بمستقبل طفلك"
+    caption: "علم اولادك معنا"
   }
 ]
 export const serviceInfo =[
@@ -171,6 +171,7 @@ export const teacherInfo=[
     name: "خضر اوزون",
     pos: "أستاذ رياضة",
     text: "فقط مجرد نص مقط مجرد نص ما باللغة ا باللغة العربية",
+    dw: "فقط مجرد نص مقط مجرد نص ما باللغة ا باللغة العربية",
     img : "https://t3.ftcdn.net/jpg/02/22/85/16/360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg",
   },
   {
@@ -287,15 +288,15 @@ export const price =[
   {
     id: "2",
     title: "عادي",
-    price: "57$",
+    price: "66$",
     period: "5mos",
-    img: lesson,
+    img: imageSlider3,
     text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
   },
   {
     id: "3",
     title: "ممتاز",
-    price: "57$",
+    price: "77$",
     period: "5mos",
     img: lesson,
     text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
@@ -303,9 +304,9 @@ export const price =[
   {
     id: "4",
     title: "مخصص",
-    price: "57$",
+    price: "100$",
     period: "5mos",
-    img: lesson,
+    img: imageSlider3,
     text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
   },
 ]
@@ -423,7 +424,7 @@ export const parents =[
 export const icons =[
   {
     id: 1,
-    text: "موقعنا قرب نادي الملاعب تبع الطابي",
+    text: "موقعنا قرب نادي الملاعب",
     img:readingWhite
   },
   {

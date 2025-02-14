@@ -1,9 +1,6 @@
 import { useState } from "react"
-import { card, leftArrow , rightArrow } from "../assets/PhotoIndex"
+import { leftArrow , rightArrow } from "../assets/PhotoIndex"
 import { imageSlides } from "../constant/index" 
-import logo from "../assets/logo.png"
-
-// لسا بدا تعديل 
 
 const Slider = () => {
 

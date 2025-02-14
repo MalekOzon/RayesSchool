@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom"
 import { leftArrow } from "../assets/PhotoIndex"
 import { footerLink, icons } from "../constant"
+import { logoFade } from "../assets/PhotoIndex"
 
 const Footer = () => {
   return (
     <div
-    className="h-200px w-full
+    className=" w-full]
     bg-black  text-white
     flex justify-center items-center
     text-lg py-12 
     "
     >
       <div
-      className="flex justify-evenly items-center w-full max-lg:flex-col max-lg:py-4"
+      className="flex justify-evenly items-center w-full  max-lg:flex-col max-lg:py-4
+      "
       >
         <div
         className="px-8"
@@ -22,7 +24,7 @@ const Footer = () => {
           </h1>
           {icons.map((item) => (
             <div
-            className="flex justify-between items-center py-3"
+            className="flex justify-start items-center py-3"
             key={item.id}
             >
               <img 
@@ -36,7 +38,7 @@ const Footer = () => {
           ))}
         </div>
         <div
-        className="px-8 max-lg:py-16"
+        className="px-8 max-lg:py-16 max-lg:flex-col"
         >
           <h1>
             روابط مهمة
@@ -44,23 +46,28 @@ const Footer = () => {
           {footerLink.map((item) => (
             <Link
             to={item.url}
-            className="flex justify-between items-center hover:bg-[#2E89DF] rounded-full px-2"
+            className="flex justify-start  items-center hover:bg-[#2E89DF] rounded-full px-2 "
             key={item.id}
             >
               <img 
               className=" w-10 py-2"
               src={leftArrow}
               />
-              <p>
+              <p 
+              className="pr-1"
+              >
                 {item.title}
               </p>
             </Link>
           ))}
         </div>
         <div
-        className="px-8"
+        className=" w-[25%] h-full max-lg:flex-col"
         >
-          تابعنا يا زميل
+          <img 
+          className=" w-[50%] h-[50%] mr-20 "
+          src={logoFade} 
+          /> 
         </div>
       </div>
     </div>

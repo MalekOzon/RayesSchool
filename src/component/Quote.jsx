@@ -6,7 +6,7 @@ const Quote = () => {
       w-full h-[500px]
       bg-center bg-cover bg-fixed
       max-sm:h-[550px] 
-      bg-[url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg")]
+      bg-[url("https://www.americanlycetuffdnk.edu.pk/wp-content/uploads/2023/02/als-dnk.jpg")]
       '
     >
       <div
@@ -20,13 +20,13 @@ const Quote = () => {
         >
         <h1
         className="font-bold text-4xl text-white "
-        >طلب عرض </h1>
+        > تواصل معنا </h1>
         <p
         className="font-semibold text-lg 
         mt-5 w-[80%] text-center text-white
         "
         >بعيدًا جدًا، خلف جبال الكلمات، بعيدًا عن بلدان 
-        و ل الكلماتasdsad، بعيدًا عن بلدان 
+        و ل  بعيدًا عن بلدان 
         و   تعيش النصوص العمياء.</p>
         </div>
         <form

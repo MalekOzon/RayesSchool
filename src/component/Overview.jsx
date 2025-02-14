@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { quotes } from "../assets/PhotoIndex"
 import { parents } from "../constant"
-
+import { motion } from "framer-motion"
 const Overview = () => {
   
   const len = parents.length
@@ -29,22 +29,19 @@ const Overview = () => {
     };
   }, [rightDiv, len, midDiv]);
 
-
-
   return (
     <div
-    className="w-full my-10 h-[28rem]
-    "
+    className="w-full my-10 h-[28rem]  "
     >
       <div
-      className="flex w-[90%] mx-[5%] overflow-x-hidden h-[80%]
-      "
+      className="flex w-[90%] mx-[5%] overflow-hidden h-[80%] "
       >
         {/* 0000000000000000000000000000000000000000 */}
-        <div
-        className="flex min-w-[40%] justify-center items-center mx-10 -mr-32 pl-10 opacity-25
-        max-lg:hidden
-        " 
+        <motion.div
+        className="flex min-w-[40%] justify-center items-center ml-10 -mr-32 pl-10 opacity-25 max-lg:hidden " 
+        initial={{scale: 1}}
+        animate={{scale: 1}}
+        transition={{type: "spring" , stiffness: 400 }}
         >
           <div
             className="w-[40%] flex justify-center pl-2   "
@@ -71,12 +68,13 @@ const Overview = () => {
             src={quotes}
             />
           </div>
-        </div>
+        </motion.div>
         {/* 1111111111111111111111111111111 */}
-        <div
-        className="flex min-w-[40%] justify-center items-center ml-10  pb-14
-        max-lg:flex-col max-lg:m-0 max-lg:min-w-[100%]
-        "
+        <motion.div
+        className="flex min-w-[40%] justify-center items-center ml-10  pb-14 max-lg:flex-col max-lg:m-0 max-lg:min-w-[100%] "
+        initial={{scale: 1 , x: '-50vw'}}
+        animate={{scale: 1.2 , x: 0 }}
+        transition={{type: "spring" , stiffness: 400 , delay:1 ,duration:1}}
         >
           <div
             className="min-w-[140px] max-w-[140px] flex justify-center pl-2 max-lg:pb-7 max-lg:pt-24 "
@@ -103,12 +101,10 @@ const Overview = () => {
             src={quotes}
             />
           </div>
-        </div>
+        </motion.div>
         {/* 22222222222222222222222222222222 */}
         <div
-        className="flex min-w-[40%] justify-center items-center mx-10 opacity-25
-        max-lg:hidden
-        "
+        className="flex min-w-[40%] justify-center items-center mx-10 opacity-25 max-lg:hidden "
         >
           <div
             className="w-[40%] flex justify-center pl-2   "

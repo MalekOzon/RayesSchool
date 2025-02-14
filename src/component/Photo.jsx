@@ -24,7 +24,7 @@ const Photo = () => {
     
   return (
     <div
-    className="w-full relative  px-[5%] my-6"
+    className={`w-full relative  px-[5%] my-6  `}
     >
       <div
       className={`w-full grid lg:grid-cols-3 max-sm:grid-cols-1 md:grid-cols-2  gap-4 
@@ -63,7 +63,10 @@ const Photo = () => {
               ${ ( isOpen === item.id ) ? "block" : "hidden"}  `}
             >
               <div
-              className="flex justify-center items-center w-[300%] h-[25rem] relative  "
+              className="flex justify-center items-center w-[300%] h-[25rem] relative 
+              
+              
+              "
               >
                 <img 
                 className="w-[80%] h-[120%] border-4 border-blue-500 rounded-lg max-sm:w-full max-sm:h-[400px] "
