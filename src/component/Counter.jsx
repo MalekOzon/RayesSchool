@@ -8,10 +8,10 @@ const Counter = ({paragraph}) => {
       w-full h-[450px]
       bg-center bg-cover bg-fixed
       max-sm:h-[875px] 
-      bg-[url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDkkkeSNXr7yIg9cUH_xfdvZ-WrTR-7FXpIw&s")]
+      bg-[url("https://raghavfoundation.org.in/wp-content/uploads/2023/05/school-image.jpg")]
       '
     >
-      <Heading first="20 سنة من" second="الخبرة" paragraph={paragraph} className="text-white" />
+      <Heading first="20 سنة من" second="الخبرة" paragraph={paragraph} className="text-black" />
       <div
       className="grid grid-cols-4 max-sm:grid-cols-1
       max-md:grid-cols-2 w-full 

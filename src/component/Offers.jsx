@@ -54,12 +54,12 @@ const Offers = () => {
               >
                 <div
                 className="m-3 bg-[#1EAAF1] rounded-full
-                w-[200px] h-[70px] flex justify-center
+                w-[250px] h-[75px] flex justify-center
                 "
                 >
                     <img 
                     src={item.icon}
-                    className="w-[75%]"
+                    className="w-[40px]"
                     />
                 </div>
                 <div>

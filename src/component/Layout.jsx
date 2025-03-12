@@ -9,7 +9,7 @@ function Layout() {
             className="pt-[90px] max-sm:pt-[90px]
             "
             >
-                <Outlet />
+            <Outlet />
             </main>
             <Footer />
         </div>

@@ -39,7 +39,7 @@ const Overview = () => {
         {/* 0000000000000000000000000000000000000000 */}
         <motion.div
         className="flex min-w-[40%] justify-center items-center ml-10 -mr-32 pl-10 opacity-25 max-lg:hidden " 
-        initial={{scale: 1}}
+        initial={{scale: 0}}
         animate={{scale: 1}}
         transition={{type: "spring" , stiffness: 400 }}
         >
@@ -103,8 +103,11 @@ const Overview = () => {
           </div>
         </motion.div>
         {/* 22222222222222222222222222222222 */}
-        <div
+        <motion.div
         className="flex min-w-[40%] justify-center items-center mx-10 opacity-25 max-lg:hidden "
+        initial={{scale: 1 , x: '-50vw'}}
+        animate={{scale: 1.2 , x: 0 }}
+        transition={{type: "spring" , stiffness: 400 , delay:1 ,duration:1}}
         >
           <div
             className="w-[40%] flex justify-center pl-2   "
@@ -131,7 +134,7 @@ const Overview = () => {
             src={quotes}
             />
           </div>
-        </div>
+        </motion.div>
         {/* --------------------------------------------- */}
       </div>
     </div>
