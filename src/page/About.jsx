@@ -4,6 +4,7 @@ import Overview from "../component/Overview"
 import Heading from "../component/Heading"
 import Quote from "../component/Quote"
 import ImageHeader from "../component/ImageHeader"
+import Photo from "../component/Photo"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <Counter />
       <Heading first="ماذا يقول" second="الاباء حولنا" />
       <Overview />
-      <Quote />
+      <Photo />
     </div>
   )
 }

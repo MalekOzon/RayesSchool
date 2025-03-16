@@ -1,68 +1,57 @@
-import { useEffect, useState } from "react"
-import { quotes } from "../assets/PhotoIndex"
-import { parents } from "../constant"
-import Slider from "react-slick"
-import SimpleCarousel from "./SimpleCarousel"
+import { useState, useEffect } from 'react';
+import { parents } from "../constant";
+
 const Overview = () => {
-  
-  const len = parents.length
-  const [rightDiv , setRightDiv] = useState(0)
-  const [midDiv , setMidDiv] = useState(len - 1)
-  const [leftDiv , setLleftDiv] = useState(len - 2 )
-  
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setMidDiv(rightDiv);
-      if (rightDiv === len - 1) {
-        setRightDiv(0);
-      } else {
-        setRightDiv(rightDiv + 1);
-      }
-      setLleftDiv(midDiv);
-    }, 1000 ); 
-    
-    return () => {
-      clearInterval(interval);
-      // console.log(rightDiv,"R")w
-      // console.log(midDiv,"m")
-      // console.log(leftDiv,"L")
-      // console.log("---------------")
-    };
-  }, [rightDiv, len, midDiv]);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % parents.length);
+    }, 3000);
 
-  const settings = {
-    dots: true, // إظهار النقاط تحت الصور
-    infinite: true, // تفعيل الدورة اللانهائية
-    speed: 600, // سرعة الانتقال بين العناصر
-    slidesToShow: 1, // عدد الشرائح المعروضة في نفس الوقت
-    slidesToScroll: 1, // عدد الشرائح التي يتم تمريرها مع كل نقر
-    arrows: true, // إظهار الأزرار للتنقل
-    autoplay: true, // تشغيل التلقائي
-    autoplaySpeed: 2000 , // سرعة التشغيل التلقائي
+    return () => clearInterval(interval); 
+  }, []);
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? parents.length - 1 : prevIndex - 1
+    );
   };
 
-
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % parents.length);
+  };
 
   return (
-    <SimpleCarousel />
+    <div className=" relative mx-auto my-10">
+      <div className="relative rounded-lg overflow-hidden shadow-xl p-4 md:p-8 flex flex-col items-center">
+        <div className="w-full flex justify-center mb-4">
+          <img className="rounded-xl w-[250px] h-[200px] md:w-[400px] md:h-[300px] object-cover" src={parents[currentIndex].img} alt={`img ${currentIndex}`}  />
+        </div>
+        <div className="text-center space-y-2 flex flex-col">
+          <p className="text-base md:text-xl text-gray-600">{parents[currentIndex].text}</p>
+          <span className="text-lg md:text-xl font-semibold">{parents[currentIndex].name}</span>
+          <span className="text-blue-300 text-sm md:text-base">{parents[currentIndex].who}</span>
+        </div>
+      </div>
 
-    // <div className="w-full my-24    ">
-    //     <Slider {...settings} className="flex justify-center items-center w-full relative h-[400px]  ">
-    //     {Array.from({ length: 5 }).map((_, index) => (
-          
-    //     <div key={index}  className="flex relative w-full h-[400px] justify-center items-center   max-lg:hidden " >
-    //       <img  className="rounded-xl w-[400px] h-[300px]" src={ parents[index].img } />
-    //       <div className="flex flex-col justify-center relative">
-    //         <p className="text-xl text-[#838181] mb-6 ">{parents[index].text} </p>
-    //         <span className="text-lg font-semibold" >{parents[index].name}</span>
-    //         <span  className=" text-blue-300"  >{parents[index].who}</span>
-    //         <img  className="absolute top-0 right-10 -z-10 opacity-15 w-[100px]" src={quotes} />
-    //       </div>
-    //     </div>
-    //     ))}
-    //     </Slider>
-    // </div>
-  )
-}
+      <div className="flex justify-between items-center absolute top-1/2 left-0 right-0 transform -translate-y-1/2 px-4 z-10 md:px-8">
+        <button onClick={prevSlide} className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-800 focus:outline-none" >
+          &larr;
+        </button>
+        <button  onClick={nextSlide}  className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-800 focus:outline-none"  >
+          &rarr;
+        </button>
+      </div>
 
-export default Overview
+      <div className="carousel-indicators flex justify-center mt-4 space-x-2">
+        {parents.map((_, index) => (
+          <span  key={index} onClick={() => setCurrentIndex(index)} className={`w-4 mx-2 h-4 rounded-full cursor-pointer
+              ${currentIndex === index ? 'bg-gray-800' : 'bg-gray-400' }`} ></span>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Overview;

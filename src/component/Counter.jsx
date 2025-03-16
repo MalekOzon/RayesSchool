@@ -1,50 +1,61 @@
-import Heading from "./Heading"
-import { counterInfo } from "../constant"
+import  { useState, useEffect } from "react";
+import Heading from "./Heading";
+import { counterInfo } from "../constant";
 
-const Counter = ({paragraph}) => {
+const Counter = ({ paragraph }) => {
+  const [counts, setCounts] = useState({});
+
+  useEffect(() => {
+    const counters = {};
+    counterInfo.forEach((item) => {
+      counters[item.id] = 0; 
+    });
+    setCounts(counters);
+
+    const interval = setInterval(() => {
+      setCounts((prevCounts) => {
+        const updatedCounts = { ...prevCounts };
+        let allFinished = true;
+
+        counterInfo.forEach((item) => {
+          if (updatedCounts[item.id] < item.num) {
+            updatedCounts[item.id] += Math.ceil(item.num / 100); 
+            allFinished = false;
+          }
+        });
+
+        if (allFinished) clearInterval(interval); 
+        return updatedCounts;
+      });
+    }, 50); 
+
+    return () => clearInterval(interval); 
+  }, []);
+
   return (
     <div
-      className='
-      w-full h-[450px]
-      bg-center bg-cover bg-fixed
-      max-sm:h-[875px] 
-      bg-[url("https://raghavfoundation.org.in/wp-content/uploads/2023/05/school-image.jpg")]
-      '
-    >
-      <Heading first="20 سنة من" second="الخبرة" paragraph={paragraph} className="text-black" />
-      <div
-      className="grid grid-cols-4 max-sm:grid-cols-1
-      max-md:grid-cols-2 w-full 
-      "
-      >
-        
-          {counterInfo.map((item) => (
-            <div
-            className="mx-5 flex flex-col"
-            key={item.id}
-            >
-              <span
-              className="text-[#1EAAF1]
-              text-6xl font-bold pb-8 flex justify-center
-              max-sm:text-5xl
-              max-sm:pb-2
-              "
-              >
-                {item.num}
-              </span>
-              <span
-              className="text-2xl font-semibold
-              text-white flex justify-center
-              max-sm:pb-10
-              "
-              >
-                {item.title}
-              </span>
-            </div>
-          ))}
-        </div>
-    </div>
-  )
-}
+      className="w-full h-[450px] bg-center bg-cover bg-fixed flex flex-col justify-center items-center
+      text-center max-md:h-[800px] max-sm:h-[1000px] max-sm:mt-12  bg-black bg-opacity-50 md:my-24  
+      bg-[url('https://raghavfoundation.org.in/wp-content/uploads/2023/05/school-image.jpg')]  ">
 
-export default Counter
+      <Heading first="20 سنة من" second="الخبرة" paragraph={paragraph} className="text-white mb-10" />
+
+      <div
+        className="grid grid-cols-4 gap-8  max-md:grid-cols-2 w-full max-w-6xl px-4 py-8 rounded-lg
+          shadow-lg bg-white bg-opacity-90 backdrop-blur-sm max-sm:grid-cols-2" >
+        {counterInfo.map((item) => (
+          <div
+            key={item.id}
+            className= "flex flex-col items-center space-y-4 p-6 rounded-lg shadow-md transition duration-300 hover:shadow-xl hover:bg-opacity-100   ">
+            
+            <span className="text-[#1EAAF1] text-5xl font-bold max-sm:text-4xl animate-puls" > {counts[item.id] || 0} </span>
+
+            <span className="text-gray-700 text-xl font-semibold max-sm:text-lg" >  {item.title} </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Counter;

@@ -12,13 +12,13 @@ const Activity = () => {
 
 
   return (
-    <div className=" w-full mb-32 md:mb-48  " >
-      <div  className="   grid grid-cols-3 gap-9 gap-y-20 md:mx-[7.5%] h-full    max-sm:grid-cols-1 max-sm:gap-y-24 md:gap-y-60   lg:gap-y-40  "  >
+    <div className=" w-full mb-32 lg:mb-72  " >
+      <div  className="grid grid-cols-3 md:mx-[7.5%] h-full max-lg:grid-cols-1 lg:gap-y-40  "  >
         {activity.map((item) => {
           if ( item.id < (currentPathname.includes("blog") ? 10 : 4 ) ) {
             return (
         
-          <div className=" bg-[#FAFAFA] h-full  my-5 lg:mx-5  max-md:w-full  "  key={item.id}   >
+          <div className=" bg-[#FAFAFA] h-full  my-5 lg:mx-5  max-md:w-full mb-28 "  key={item.id}   >
             <div className="relative  h-[65%] max-md:w-full  " >
               <img   className="  h-full w-full  " src={item.img}   />
                 <div  className="absolute w-[45px]  bottom-0 left-0 bg-purple-500 text-white    "  >

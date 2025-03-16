@@ -1,5 +1,4 @@
 import ImageHeader from "../component/ImageHeader"
-import { motion } from "framer-motion"
 import Information from "../component/Information"
 import Quote from "../component/Quote"
 
