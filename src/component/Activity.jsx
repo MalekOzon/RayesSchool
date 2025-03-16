@@ -18,7 +18,7 @@ const Activity = () => {
           if ( item.id < (currentPathname.includes("blog") ? 10 : 4 ) ) {
             return (
         
-          <div className=" bg-[#FAFAFA]  lg:mx-5  max-lg:w-[500px] flex flex-col mx-auto max-sm:w-[70%] max-sm:h-[620px] xl:h-[600px] "  key={item.id}   >
+          <div className=" bg-[#FAFAFA] my-4  lg:mx-5  max-lg:w-[500px] flex flex-col mx-auto max-sm:w-[70%] max-sm:h-[620px] xl:h-[600px] "  key={item.id}   >
             <div className="relative  " >
               <img   className="  h-[300px] w-full  "   src={item.img}   />
               <div  className="absolute w-[45px]  bottom-0 left-0 bg-purple-500 text-white">
