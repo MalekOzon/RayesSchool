@@ -36,7 +36,7 @@ const Slider = () => {
             {index === current && (
               <>
                 <img className="w-full h-full object-cover opacity-90" src={item.url} alt={item.title}/>
-                <div className="absolute inset-y-0 mb-12  inset-x-0 z-10 flex flex-col justify-center items-center text-center bg-black bg-opacity-35">
+                <div className="absolute inset-y-0   inset-x-0 z-10 flex flex-col justify-center items-center text-center bg-black bg-opacity-35">
                   <h2 className="text-4xl font-bold text-white mb-4 max-sm:text-2xl"> {item.caption} </h2>
                 </div>
               </>

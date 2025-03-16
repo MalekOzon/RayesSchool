@@ -2,11 +2,11 @@ import { lessonInfo } from "../constant"
 
 const Courses = () => {
   return (
-    <div className="grid grid-cols-2 max-xl:grid-cols-1 w-full items-center px-6 " >
+    <div className="grid grid-cols-2 max-md:grid-cols-1 w-full items-center px-6 " >
       {lessonInfo.map((item) => (
-        <div className="flex items-center  w-full xl:w-[90%] max-xl:flex-col max-lg:my-12 my-8 " key={item.id}  >
-          <img  className=" w-[260px]   h-[220px]    max-xl:w-[80%] max-xl:h-[400px] "  src={item.img}  />
-          <div  className="bg-[#FAFAFA]  max-xl:w-[80%] max-xl:h-[200px] pr-5 pt-5  "  >
+        <div className="flex items-center  w-full xl:w-[90%] flex-col max-lg:my-12 my-14 md:h-[470px] " key={item.id}  >
+          <img  className=" w-full         max-sm:h-[240px] max-md:w-[70%] max-md:h-[300px] xl:w-[90%] max-xl:h-[230px] xl:h-[340px]   "  src={item.img}  />
+          <div  className="pr-6 pb-4 bg-[#FAFAFA]  max-sm:h-[240px] max-md:w-[70%]                  xl:w-[90%] max-xl:h-[230px] xl:h-[200px]    "   >
             <h1  className="text-[#1EAAF1]  text-3xl font-semibold mb-4   "  >
               {item.title}
             </h1>
