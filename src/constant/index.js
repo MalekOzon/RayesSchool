@@ -270,32 +270,32 @@ export const price =[
     title: "اساسي",
     price: "57$",
     period: "5mos",
-    img: lesson,
-    text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
+    img: pic4,
+    text:"يشمل الأساسيات التي تلبي احتياجات الطلاب بشكل عام، مع توفير بيئة تعليمية بسيطة ومريحة.",
   },
   {
     id: "2",
     title: "عادي",
     price: "66$",
     period: "5mos",
-    img: imageSlider3,
-    text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
+    img: pic6,
+    text: "يقدم مستوى تعليمي قياسي مع مرافق إضافية محدودة، ويهدف إلى تحقيق التوازن بين الجودة والتكلفة.",
   },
   {
     id: "3",
     title: "ممتاز",
-    price: "77$",
+    price: "88$",
     period: "5mos",
-    img: lesson,
-    text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
+    img: pic1,
+    text: "يتميز بتجهيزات تعليمية متقدمة وموارد إضافية، مما يوفر تجربة تعليمية أكثر تميزًا وجودة عالية",
   },
   {
     id: "4",
     title: "مخصص",
     price: "100$",
     period: "5mos",
-    img: imageSlider3,
-    text: "حتى الإشارة القوية ليس لها سيطرة على النصوص العمياء فهي غير تقليدية تقريبًا.",
+    img: pic9,
+    text: "مصمم خصيصًا لتلبية احتياجات خاصة أو متطلبات محددة للطلاب، مع خدمات ومرافق مخصصة حسب الطلب",
   },
 ]
 export const activity =[
@@ -450,23 +450,23 @@ export const social=[
 export const photos =[
   {
     id: 1,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Staples_High_School%2C_Westport%2C_CT.jpg/800px-Staples_High_School%2C_Westport%2C_CT.jpg"
-  },
-  {
-    id: 2,
-    url: imageSlider1
-  },
-  {
-    id: 3,
-    url: imageSlider2
-  },
-  {
-    id: 4,
     url: pic1
   },
   {
-    id: 5,
+    id: 2,
+    url: pic7
+  },
+  {
+    id: 3,
+    url: pic8
+  },
+  {
+    id: 4,
     url: pic9
+  },
+  {
+    id: 5,
+    url: pic10
   },
   {
     id: 6,
@@ -482,7 +482,7 @@ export const photos =[
   },
   {
     id: 9,
-    url: pic10
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Staples_High_School%2C_Westport%2C_CT.jpg/800px-Staples_High_School%2C_Westport%2C_CT.jpg"
   }
 ]
 

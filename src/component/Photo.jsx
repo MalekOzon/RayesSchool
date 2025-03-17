@@ -24,7 +24,7 @@ const Photo = () => {
 
   return (
     <div className="w-full relative px-[5%] my-6">
-      <div className="w-full grid lg:grid-cols-3 max-sm:grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="w-full grid lg:grid-cols-3 max-sm:grid-cols-1 md:grid-cols-1 gap-4">
       {photos.map((item ) => {
         if ( item.id < (currentPathname.includes("/about") ? 100 : 4 ) ) {
         return (

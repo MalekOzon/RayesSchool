@@ -10,7 +10,7 @@ const HideImage = () => {
             يبدأ بترسيخ قيم كالصدق، الاحترام، والتسامح في حياته اليومية. كن قدوة حسنة له، فتصرفاتك تلعب دورًا كبيرًا في تشكيل شخصيته وسلوكه المستقبلي.
           </p>
         </div>
-        <button className="rounded-full bg-orange-400  p-5 mb-3 w-[330px]  flex justify-center items-center text-xl font-bold lg:w-[250px] xl:w-[200px] max-sm:w-[130px] " >
+        <button className="rounded-full bg-orange-400  p-5 mb-3 w-[330px]  flex justify-center items-center  font-bold lg:w-[200px] xl:w-[200px] max-sm:w-[130px] " >
           اشترك بمنهاج  
         </button>
       </div>
