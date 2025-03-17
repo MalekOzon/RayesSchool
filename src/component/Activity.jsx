@@ -12,7 +12,7 @@ const Activity = () => {
 
 
   return (
-    <div className=" w-full mb-32 lg:mb-72  " >
+    <div className=" w-full mb-32   " >
       <div  className="grid grid-cols-3 md:mx-[7.5%] h-full max-lg:grid-cols-1 lg:gap-y-40  "  >
         {activity.map((item) => {
           if ( item.id < (currentPathname.includes("blog") ? 10 : 4 ) ) {
