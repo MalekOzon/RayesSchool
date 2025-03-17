@@ -17,7 +17,7 @@ const Counter = ({ paragraph }) => {
         });
       },
       {
-        threshold: 0.5, 
+        threshold: 0.25, 
       }
     );
     if (counterRef.current) {
@@ -56,8 +56,8 @@ const Counter = ({ paragraph }) => {
 
  
   return (
-    <div ref={counterRef}
-      className="w-full h-[450px] bg-center bg-cover bg-fixed flex flex-col justify-center items-center
+    <div 
+      className="w-fll h-[450px] bg-center bg-cover bg-fixed flex flex-col justify-center items-center
       text-center max-md:h-[800px] max-sm:h-[750px] max-sm:mt-12  bg-black bg-opacity-50 md:my-24  
       bg-[url('https://raghavfoundation.org.in/wp-content/uploads/2023/05/school-image.jpg')]  ">
 
