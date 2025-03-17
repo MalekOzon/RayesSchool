@@ -16,7 +16,7 @@ const Quote = () => {
           <br />
           <input  className="p-2 m-2 w-[90%] rounded-md border border-gray-300 focus:border-blue-500 focus:outline-none transition duration-300  h-24" type="text"  name="phone" placeholder="اكتب هنا" />
 
-          <button  type="submit" className="rounded-full bg-orange-400 hover:bg-orange-500 text-white p-3 mb-4 w-[130px]  flex justify-center items-center
+          <button  type="submit" className="rounded-full bg-orange-400 hover:bg-orange-500 hover:scale-110 text-white p-3 mb-4 w-[130px]  flex justify-center items-center
           text-xl text-center text-nowrap  font-semibold  lg:w-[150px]  xl:w-[100px] max-sm:w-[130px] transition duration-300" >ارسال</button>
 
         </form>

@@ -7,7 +7,7 @@ const Pricing = () => {
         {price.map((item) => (
           <div
             key={item.id}
-            className="m-5 bg-[#FAFAFA] w-[45%] max-w-[400px] h-auto rounded-lg shadow-md p-6 max-lg:w-full" >
+            className="m-5 bg-[#FAFAFA] w-[45%] max-w-[400px] h-auto rounded-lg shadow-md p-6 max-lg:w-full hover:scale-110 transition duration-300 hover:bg-[#f8f8f8]" >
             <h3 className="text-3xl font-semibold text-center my-4 max-sm:text-2xl"> {item.title} </h3>
             <div className="flex justify-center items-center my-4">
               <span className="text-base text-[#7D7D7D] mx-1 max-sm:text-sm"> {item.period}/ </span>

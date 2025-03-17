@@ -18,7 +18,7 @@ const Activity = () => {
           if ( item.id < (currentPathname.includes("blog") ? 10 : 4 ) ) {
             return (
         
-          <div className=" bg-[#FAFAFA] my-4  lg:mx-5  max-lg:w-[500px] flex flex-col mx-auto max-sm:w-[70%] max-sm:h-[620px] xl:h-[600px] "  key={item.id}   >
+          <div className=" bg-[#FAFAFA] my-4  lg:mx-5  max-lg:w-[500px] flex flex-col mx-auto max-sm:w-[70%] max-sm:h-[620px] xl:h-[600px] hover:scale-105 transition duration-300 hover:bg-[#f8f8f8] "  key={item.id}   >
             <div className="relative  " >
               <img   className="  h-[300px] w-full  "   src={item.img}   />
               <div  className="absolute w-[45px]  bottom-0 left-0 bg-purple-500 text-white">
@@ -35,8 +35,8 @@ const Activity = () => {
             
             <Link
             to={`/blog/${item.id}`}
-            className="rounded-full bg-orange-400 text-white p-2  w-[120px]  flex justify-center items-center text-xl font-bold 
-                      lg:mt-28 max-lg:mb-7
+            className="rounded-full bg-orange-400 hover:bg-orange-500 hover:scale-110  transition duration-300 text-white p-2  w-[120px]  flex justify-center items-center text-xl font-bold 
+                      lg:mt-28 max-lg:mb-7 lg:mr-4
             ">
             اقرأ المزيد</Link>
           </div>

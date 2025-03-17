@@ -3,8 +3,8 @@ import Heading from "./Heading";
 import { counterInfo } from "../constant";
 
 const Counter = ({ paragraph }) => {
-  const [counts, setCounts] = useState({}); // لتخزين القيم الحالية للعدادات
-  const counterRef = useRef(null); // مرجع للعنصر الذي سنراقبه
+  const [counts, setCounts] = useState({});
+  const counterRef = useRef(null); 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -43,7 +43,7 @@ const Counter = ({ paragraph }) => {
         let allFinished = true;
         counterInfo.forEach((item) => {
           if (updatedCounts[item.id] < item.num) {
-            updatedCounts[item.id] += 1; 
+            updatedCounts[item.id] += Math.ceil(item.num / 100 ); 
             allFinished = false;
           }
         });
