@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { parents } from "../constant";
+import { leftArrow, rightArrow } from "../assets/PhotoIndex";
 
 const Overview = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,11 +37,11 @@ const Overview = () => {
       </div>
 
       <div className="flex justify-between items-center absolute top-1/2 left-0 right-0 transform -translate-y-1/2 px-4 z-10 md:px-8">
-        <button onClick={prevSlide} className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-800 focus:outline-none" >
-          &larr;
+        <button onClick={prevSlide} className="bg-gray-300 text-white p-2 rounded-full hover:bg-gray-800 focus:outline-none" >
+        <img src={rightArrow} alt="Previous" width={30} />
         </button>
-        <button  onClick={nextSlide}  className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-800 focus:outline-none"  >
-          &rarr;
+        <button  onClick={nextSlide}  className="bg-gray-300 text-white p-2 rounded-full hover:bg-gray-800 focus:outline-none"  >
+        <img src={leftArrow} alt="Previous" width={30} />
         </button>
       </div>
 
