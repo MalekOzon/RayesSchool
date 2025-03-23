@@ -14,7 +14,7 @@ const Teacher = () => {
           if ( item.id < (currentPathname.includes("teacher") ? 10 : 5 ) ) {
             return (
               <div  key={item.id}   className="relative  m-3 mt-0 p-4  rounded-3xl    hover:shadow-2xl  "  >
-                <img   className="w-full h-[275px] rounded-3xl  max-sm:h-[250px]   " src={item.img}  />
+                <img   className="w-full h-[275px] rounded-3xl  max-sm:h-[250px]  object-cover " src={item.img}  />
                 <div  className="flex flex-col   justify-center items-center  mt-4"  >
                   <h1 className="text-2xl font-semibold " > {item.name} </h1>
                   <p className="text-[#a5a4a4] text-lg my-3" >{item.pos} </p>

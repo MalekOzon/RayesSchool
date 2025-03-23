@@ -53,37 +53,37 @@ export const navigation = [
 ];
 export const imageSlides =[
   {
-    id: "1",
+    id: 1,
     title: "picture1",
     url: pic1,
     caption: "أولادك امانة لدينا"
   },
   {
-    id: "2",
+    id: 2,
     title: "picture2",
     url: pic4,
     caption: "علم اولادك معنا"
   },
   {
-    id: "3",
+    id: 3,
     title: "picture3",
     url: pic7,
     caption: "أولادك امانة لدينا"
   },
   {
-    id: "3",
+    id: 4,
     title: "picture3",
     url: pic8,
     caption: "علم اولادك معنا"
   },
   {
-    id: "3",
+    id: 5,
     title: "picture3",
     url: pic9,
     caption: "أولادك امانة لدينا"
   },
   {
-    id: "3",
+    id: 6,
     title: "picture3",
     url: pic10,
     caption: "علم اولادك معنا"

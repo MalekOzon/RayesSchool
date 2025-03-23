@@ -20,7 +20,7 @@ const Activity = () => {
         
           <div className=" bg-[#FAFAFA] my-4  lg:mx-5  max-lg:w-[500px] flex flex-col mx-auto max-sm:w-[70%] max-sm:h-[620px] xl:h-[600px] hover:scale-105 transition duration-300 hover:bg-[#f8f8f8] "  key={item.id}   >
             <div className="relative  " >
-              <img   className="  h-[300px] w-full  "   src={item.img}   />
+              <img   className="  h-[300px] w-full object-cover "   src={item.img}   />
               <div  className="absolute w-[45px]  bottom-0 left-0 bg-purple-500 text-white">
                 <span className=" flex justify-center items-center  text-2xl font-semibold">{item.datenum} </span>
                 <span className=" flex justify-center items-center text-lg font-semibold text-center">{item.dateyear} </span>
